@@ -1,0 +1,31 @@
+body {
+    background: linear-gradient(#ffffff, #db8dff);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #000000;
+}
+.anuncio-de-emprego {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+.space {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cargo {
+    font-weight: bold;
+}
+
+.empresa {
+    font-style: italic;
+}
+
+.localizacao {
+    color: #888;
+}
