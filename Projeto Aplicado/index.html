@@ -8,19 +8,18 @@
 </head>
 <body>
     <header>
-        <h1 align="center">Vagas de Emprego</h1>
-        <h2>Procure a sua vaga de emprego aqui!!!</h2>
+        <h1>Vagas de Emprego</h1>
+        <h2><u><i>Procure a sua vaga de emprego aqui!!!</i></u></h2>
     </header>
     
     <!-- Caixa de pesquisa -->
-    <div id="search-box">
-        <input type="text" class="input-text-box" placeholder="Pesquise aqui..." id="inputSearch">
+    <input type="text" class="input-text-box" placeholder="Pesquise aqui..." id="inputSearch">
         <a href=""> <!--trocar link por event listener-->
             <img src="Imagens/loupe.png" alt="Lupa" class="icon">
         </a>
 
         <!-- Vaga 1 -->
-        <div class="anuncio-de-emprego"></div>
+        <div class="linha"></div>
         
         <h2 class="cargo">Desenvolvedor Web</h2>
     
@@ -29,10 +28,20 @@
         <p class="localizacao">São Paulo, SP</p>
         
         <!-- Descrição -->
-        <p>Descrição: Estamos buscando um desenvolvedor web experiente para se juntar à nossa equipe de desenvolvimento. Requisitos: conhecimento em HTML, CSS e JavaScript.</p>
+        <p class="descricao">Descrição: Estamos buscando um desenvolvedor web experiente para se juntar à nossa equipe de desenvolvimento.</p>
+
+        <!-- Requsitos -->
+        <p class="requisitos">Requisitos: conhecimento em HTML, CSS e JavaScript.</p>
+
+        <!-- Candidate-se -->
+        <section class="candidatar">
+                <form action="Desenvolvedor Web.html" method="post">
+                    <input type="submit" class="botao" value="CANDIDATE-SE">
+                </form>
+        </section>
 
         <!-- Vaga 2 -->
-        <div class="anuncio-de-emprego"></div>
+        <div class="linha"></div>
 
         <h2 class="cargo">Designer Gráfico</h2>
     
@@ -41,10 +50,17 @@
         <p class="localizacao">Rio de Janeiro, RJ</p>
     
         <!-- Descrição -->
-        <p>Descrição: Procuramos um designer gráfico criativo e talentoso para criar designs visualmente atraentes para nossos projetos. Requisitos: experiência em Photoshop e Illustrator.</p>
+        <p class="descricao">Descrição: Procuramos um designer gráfico criativo e talentoso para criar designs visualmente atraentes para nossos projetos. Requisitos: experiência em Photoshop e Illustrator.</p>
+
+        <!-- Candidate-se -->
+        <section class="candidatar">
+            <form action="Designer Gráfico.html" method="post">
+                <input type="submit" class="botao" value="CANDIDATE-SE">
+            </form>
+        </section>
 
         <!-- Vaga 3 -->
-        <div class="anuncio-de-emprego"></div>
+        <div class="linha"></div>
 
         <h2 class="cargo">Analista de Marketing</h2>
 
@@ -53,7 +69,14 @@
         <p class="localizacao">Belo Horizonte, MG</p>
         
         <!-- Descrição -->
-        <p>Descrição: Estamos em busca de um analista de marketing com habilidades analíticas e conhecimento em estratégias de marketing digital. Requisitos: experiência em SEO e Google Analytics.</p>
+        <p class="descricao">Descrição: Estamos em busca de um analista de marketing com habilidades analíticas e conhecimento em estratégias de marketing digital. Requisitos: experiência em SEO e Google Analytics.</p>
+
+        <!-- Candidate-se -->
+        <section class="candidatar">
+            <form action="Analista de Marketing.html" method="post">
+                <input type="submit" class="botao" value="CANDIDATE-SE">
+            </form>
+        </section>
 
         <div class="space"></div>
         

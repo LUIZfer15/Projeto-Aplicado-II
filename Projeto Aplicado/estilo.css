@@ -1,31 +1,75 @@
+/* Estilo */
 body {
-    background: linear-gradient(#ffffff, #db8dff);
+    background: linear-gradient(#f07cff, #f4dcff);
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
 }
-
-h1 {
-    color: #000000;
+/* Caixa de Pesquisa */
+.input-text-box {
+    height: 20px;
+    width: 400px;
+    border: dotted 0.5rem white;
+    border-radius: 20px;
 }
-.anuncio-de-emprego {
-    border-bottom: 1px solid #ccc;
-    padding: 10px 0;
+/* Vagas de Emprego */
+h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(#982aff, #ce52ff);
+    height: 100px;
+    width: 800px;
+    border-radius: 30px;
+    margin-top: 50px;
+}
+/* Procure a sua vaga... */
+h2 {
+    text-align: center;
+    color: rgb(60, 18, 80);
+}
+/* Descrição da vaga */
+.descricao {
+    text-align: left;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-top: 50px;
+    height: 30px;
+    width: 900px;
+}
+/* Requisitos */
+.requisitos {
+
+}
+/* Candidate-se */
+.botao {
+    background: linear-gradient(#982aff, #ce52ff);
+    color: #ffffff;
+    border-radius: 10px;
+    margin-top: 30px;
+    height: 30px;
+    width: 150px;
+}
+/* Linha de separação */
+.linha {
+    border-bottom: 1px solid #ffffff;
+    padding: 20px 0;
+    width: 800px;
 }
 .space {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    margin-top: 200px;
 }
-
+/* Cargo da vaga */
 .cargo {
+    text-align: center;
     font-weight: bold;
 }
-
+/* Empresa */
 .empresa {
+    text-align: center;
     font-style: italic;
 }
-
+/* Localização */
 .localizacao {
-    color: #888;
+    text-align: center;
+    color: #3b3b3b;
 }
