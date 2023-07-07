@@ -1,95 +1,104 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vagas de Emprego</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
+
 <body>
     <header>
         <h1>Vagas de Emprego</h1>
         <h2><u><i>Procure a sua vaga de emprego aqui!!!</i></u></h2>
     </header>
-    
+
     <!-- Caixa de pesquisa -->
-    <input type="text" class="input-text-box" placeholder="Pesquise aqui..." id="inputSearch">
-        <a href=""> <!--trocar link por event listener-->
-            <img src="Imagens/loupe.png" alt="Lupa" class="icon">
-        </a>
+    <input type="text" class="caixa-de-pesquisa" placeholder="Pesquise aqui..." id="inputSearch">
 
-        <!-- Vaga 1 -->
-        <div class="linha"></div>
-        
-        <h2 class="cargo">Desenvolvedor Web</h2>
-    
-        <p class="empresa">Empresa ABC</p>
-    
-        <p class="localizacao">São Paulo, SP</p>
-        
-        <!-- Descrição -->
-        <p class="descricao">Descrição: Estamos buscando um desenvolvedor web experiente para se juntar à nossa equipe de desenvolvimento.</p>
+    <!-- Vaga 1 -->
+    <div class="linha"></div>
 
-        <!-- Requsitos -->
-        <p class="requisitos">Requisitos: conhecimento em HTML, CSS e JavaScript.</p>
+    <h2 class="cargo">Desenvolvedor Web</h2>
 
-        <!-- Candidate-se -->
-        <section class="candidatar">
-                <form action="Desenvolvedor Web.html" method="post">
-                    <input type="submit" class="botao" value="CANDIDATE-SE">
-                </form>
-        </section>
+    <p class="empresa"><b>Empresa ABC</b></p>
 
-        <!-- Vaga 2 -->
-        <div class="linha"></div>
+    <p class="localizacao"><u><b>São Paulo, SP</b></u></p>
 
-        <h2 class="cargo">Designer Gráfico</h2>
-    
-        <p class="empresa">Empresa XYZ</p>
-    
-        <p class="localizacao">Rio de Janeiro, RJ</p>
-    
-        <!-- Descrição -->
-        <p class="descricao">Descrição: Procuramos um designer gráfico criativo e talentoso para criar designs visualmente atraentes para nossos projetos. Requisitos: experiência em Photoshop e Illustrator.</p>
+    <!-- Descrição -->
+    <p class="descricao"><b>Descrição:</b> Estamos buscando um desenvolvedor web experiente para se juntar à nossa
+        equipe de desenvolvimento.</p>
 
-        <!-- Candidate-se -->
-        <section class="candidatar">
-            <form action="Designer Gráfico.html" method="post">
-                <input type="submit" class="botao" value="CANDIDATE-SE">
-            </form>
-        </section>
+    <!-- Requsitos -->
+    <p class="requisitos"><b>Requisitos:</b> Conhecimento em HTML, CSS e JavaScript.</p>
 
-        <!-- Vaga 3 -->
-        <div class="linha"></div>
+    <!-- Candidate-se -->
+    <section class="candidatar">
+        <form action="Desenvolvedor Web.html" method="post">
+            <input type="submit" class="botao" value="CANDIDATE-SE">
+        </form>
+    </section>
 
-        <h2 class="cargo">Analista de Marketing</h2>
+    <!-- Vaga 2 -->
+    <div class="linha"></div>
 
-        <p class="empresa">Empresa 123</p>
+    <h2 class="cargo">Designer Gráfico</h2>
 
-        <p class="localizacao">Belo Horizonte, MG</p>
-        
-        <!-- Descrição -->
-        <p class="descricao">Descrição: Estamos em busca de um analista de marketing com habilidades analíticas e conhecimento em estratégias de marketing digital. Requisitos: experiência em SEO e Google Analytics.</p>
+    <p class="empresa"><b>Empresa XYZ</b></p>
 
-        <!-- Candidate-se -->
-        <section class="candidatar">
-            <form action="Analista de Marketing.html" method="post">
-                <input type="submit" class="botao" value="CANDIDATE-SE">
-            </form>
-        </section>
+    <p class="localizacao"><u><b>Rio de Janeiro, RJ</b></u></p>
 
-        <div class="space"></div>
-        
-        <!-- Contatos -->
-        <footer>
-            <h4>Contato</h4>
-            <img src="./imagens/droppin.png" width="20"/>
-            <i>Rua das Laranjeiras 234, Matagal - AC, Brasil</i><br>
-            <img src="./imagens/phone.png" width="20"/>
-            <i><a href="tel:+5548999888777">+55 48 999888777</a></i><br>
-            <img src="./imagens/email.png" width="20"/>
-            <i><a href="mailto:email@email.com">email@email.com</a></i>
-        </footer>
+    <!-- Descrição -->
+    <p class="descricao"><b>Descrição:</b> Procuramos um designer gráfico criativo e talentoso para criar designs
+        visualmente atraentes para nossos projetos.</p>
+
+    <!-- Requsitos -->
+    <p class="requisitos"><b>Requisitos:</b> Experiência em Photoshop e Illustrator.</p>
+
+    <!-- Candidate-se -->
+    <section class="candidatar">
+        <form action="Designer Gráfico.html" method="post">
+            <input type="submit" class="botao" value="CANDIDATE-SE">
+        </form>
+    </section>
+
+    <!-- Vaga 3 -->
+    <div class="linha"></div>
+
+    <h2 class="cargo">Analista de Marketing</h2>
+
+    <p class="empresa">Empresa 123</p>
+
+    <p class="localizacao">Belo Horizonte, MG</p>
+
+    <!-- Descrição -->
+    <p class="descricao"><b>Descrição:</b> Estamos em busca de um analista de marketing com habilidades analíticas e
+        conhecimento em estratégias de marketing digital.</p>
+
+    <!-- Requsitos -->
+    <p class="requisitos"><b>Requisitos:</b> Experiência em SEO e Google Analytics.</p>
+
+    <!-- Candidate-se -->
+    <section class="candidatar">
+        <form action="Analista de Marketing.html" method="post">
+            <input type="submit" class="botao" value="CANDIDATE-SE">
+        </form>
+    </section>
+
+    <div class="space"></div>
+
+    <div class="linha"></div>
+    <!-- Contatos -->
+    <footer class="contato">
+        <h3>Contato</h3>
+        <imgsrc="./imagens/droppin.png" width="20" />
+        <i>Rua das Laranjeiras 234, Matagal - AC, Brasil</i><br>
+        <img src="./imagens/phone.png" width="20" />
+        <i><a href="tel:+5548999888777">+55 48 999888777</a></i><br>
+        <img src="./imagens/email.png" width="20" />
+        <i><a href="mailto:email@email.com">email@email.com</a></i>
+    </footer>
 
 </body>
 
