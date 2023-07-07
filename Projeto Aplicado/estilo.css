@@ -5,114 +5,79 @@ body {
     margin: 0;
     padding: 20px;
 }
-
 /* Caixa de Pesquisa */
 .caixa-de-pesquisa {
     position: relative;
-    left: 1400px;
-    align-items: center;
+    left: 80%;
     height: 15px;
-    width: 400px;
+    width: 300px;
     border: dotted 0.5rem white;
     border-radius: 20px;
     margin-top: 20px;
     background-image: url(imagens/loupe.png);
     background-repeat: no-repeat;
-    background-position: 380px;
+    background-position: 97%;
 }
-
 /* Vagas de Emprego */
-h1 {
-    position: relative;
-    left: 550px;
+.titulo {
     text-align: center;
+    position: relative;
+    left: 35%;
     color: rgb(255, 255, 255);
     background: linear-gradient(#982aff, #ce52ff);
-    height: 100px;
-    width: 800px;
+    height: 50px;
+    width: 550px;
     border-radius: 30px;
     margin-top: 20px;
 }
-
 /* Procure a sua vaga... */
-h2 {
+.sub-titulo {
     text-align: center;
     color: rgb(60, 18, 80);
 }
-
-/* Descrição da vaga */
-.descricao {
-    position: relative;
-    left: 500px;
-    background-color: #ffffff;
-    border-radius: 10px;
-    margin-top: 50px;
-    height: 30px;
-    width: 1000px;
-}
-
-/* Requisitos */
-.requisitos {
-    position: relative;
-    left: 500px;
-    background-color: white;
-    border-radius: 10px;
-    margin-top: 50px;
-    height: 30px;
-    width: 500px;
-}
-
-/* Candidate-se */
-.botao {
-    position: relative;
-    left: 500px;
-    background: linear-gradient(#982aff, #ce52ff);
-    color: #ffffff;
-    border-radius: 10px;
-    margin-top: 30px;
-    height: 30px;
-    width: 150px;
-}
-
-/* Linha de separação */
-.linha {
-    position: relative;
-    left: 550px;
-    background-color: #5c8c92;
-    border-radius: 30px;
-    margin-top: 50px;
-    border: 1px solid #5c8c92;
-    left: 500px;
-    height: 1px;
-    width: 1000px;
-    margin-top: 20px;
-}
-
-.space {
-    margin-top: 200px;
-}
-
 /* Cargo da vaga */
 .cargo {
     text-align: center;
     font-weight: bold;
 }
-
 /* Empresa */
 .empresa {
-    position: relative;
-    left: 500px;
+    text-align: center;
     font-style: italic;
 }
-
 /* Localização */
 .localizacao {
-    position: relative;
-    left: 500px;
+    text-align: center;
     color: #3b3b3b;
 }
-
-.contato {
+/* Descrição da vaga */
+.descricao {
+    text-align: left;
     position: relative;
-    left: 500px;
+    left: 30%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-top: 30px;
+    height: 100px;
+    width: 750px;
+}
+
+/* Requisitos */
+.requisitos {
+    text-align: left;
+    position: relative;
+    left: 30%;
+    margin-top: -50px;
+}
+/* Candidate-se */
+.botao {
+    text-align: center;
+    position: relative;
+    left: 50%;
+    background: linear-gradient(#982aff, #ce52ff);
+    color: #ffffff;
+    border-radius: 10px;
+    margin-top: 40px;
+    height: 30px;
+    width: 150px;
 }
