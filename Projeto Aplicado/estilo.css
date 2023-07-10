@@ -181,6 +181,7 @@ body {
 .adicione {
     position: relative;
     left: 20%;
+    text-align: left;
 }
 
 /* Titulo */
@@ -273,4 +274,8 @@ body {
     height: 40px;
     width: 130px;
     font-weight: bold;
+}
+/* Space */
+.space1 {
+    margin-top: 145px;
 }
