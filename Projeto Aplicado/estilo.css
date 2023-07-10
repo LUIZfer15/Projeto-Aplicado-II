@@ -1,83 +1,276 @@
-/* Estilo */
+/* ESTILO INDEX Pag1 */
+
 body {
     background: linear-gradient(#95f3ff, #e3a7ff);
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 20px;
+    padding: 30px;
 }
+
 /* Caixa de Pesquisa */
 .caixa-de-pesquisa {
     position: relative;
     left: 80%;
-    height: 15px;
+    height: 20px;
     width: 300px;
     border: dotted 0.5rem white;
     border-radius: 20px;
-    margin-top: 20px;
+    margin-top: 10px;
     background-image: url(imagens/loupe.png);
     background-repeat: no-repeat;
     background-position: 97%;
 }
+
+.space {
+    height: 70px;
+}
+
+.fundo1 {
+    position: relative;
+    left: 1%;
+    background: linear-gradient(#674cff, #b362ff);
+    height: 40px;
+    width: 250px;
+    border-radius: 50px;
+}
+
 /* Vagas de Emprego */
 .titulo {
-    text-align: center;
+    text-align: left;
     position: relative;
-    left: 35%;
+    left: 2%;
+    margin-top: -35px;
     color: rgb(255, 255, 255);
-    background: linear-gradient(#982aff, #ce52ff);
-    height: 50px;
-    width: 550px;
-    border-radius: 30px;
-    margin-top: 20px;
 }
+
 /* Procure a sua vaga... */
 .sub-titulo {
     text-align: center;
+    margin-top: 50px;
     color: rgb(60, 18, 80);
 }
+
 /* Cargo da vaga */
 .cargo {
     text-align: center;
+    position: relative;
+    left: 30%;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 40px;
+    height: 290px;
+    width: 750px;
     font-weight: bold;
 }
+
 /* Empresa */
 .empresa {
     text-align: center;
+    position: relative;
+    left: 30%;
+    width: 750px;
+    height: 20px;
+    margin-top: -250px;
     font-style: italic;
 }
+
 /* Localização */
 .localizacao {
     text-align: center;
+    position: relative;
+    left: 30%;
+    width: 750px;
+    height: 50px;
     color: #3b3b3b;
 }
+
 /* Descrição da vaga */
 .descricao {
     text-align: left;
     position: relative;
-    left: 30%;
-    background-color: #ffffff;
-    border-radius: 10px;
-    margin-top: 30px;
-    height: 100px;
-    width: 750px;
+    left: 31%;
+    height: 80px;
+    width: 730px;
 }
 
 /* Requisitos */
 .requisitos {
-    text-align: left;
+    width: 750px;
     position: relative;
-    left: 30%;
-    margin-top: -50px;
+    left: 31%;
+    margin-top: -30px;
 }
+
 /* Candidate-se */
 .botao {
+    font-size: large;
     text-align: center;
     position: relative;
-    left: 50%;
-    background: linear-gradient(#982aff, #ce52ff);
+    left: 63%;
+    background-color: rgb(0, 132, 255);
+    border-color: rgb(0, 132, 255);
+    ;
     color: #ffffff;
     border-radius: 10px;
+    margin-top: 70px;
+    height: 40px;
+    width: 130px;
+    font-weight: bold;
+}
+
+/* Linha de separação */
+.linha {
+    position: relative;
+    left: 30%;
+    height: 1px;
+    width: 750px;
+    background-color: #5c8c92;
+    border-radius: 30px;
+    border: 1px solid #5c8c92;
+    margin-top: 20px;
+}
+
+.fundo2 {
+    background-color: white;
+    position: relative;
+    left: 30%;
+    border-radius: 10px;
     margin-top: 40px;
-    height: 30px;
-    width: 150px;
+    height: 200px;
+    width: 750px;
+
+}
+
+/* Contatos */
+.contato {
+    text-align: left;
+    margin-top: -170px;
+    background-color: white;
+    border-radius: 10px;
+    height: 130px;
+    width: 700px;
+    position: relative;
+    left: 31%;
+}
+
+/* ESTILO CADASTRO Pag2 */
+
+/* Linha 1 */
+.info1 {
+    position: relative;
+    left: 20%;
+    height: 7px;
+    width: 400px;
+    background: #eeabff;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+/* Linha 2 */
+.info2 {
+    position: relative;
+    left: 20%;
+    height: 7px;
+    width: 100px;
+    background: #6240a1;
+    border-radius: 30px;
+    margin-top: -7px;
+}
+
+/* Titulo */
+.adicione {
+    position: relative;
+    left: 20%;
+}
+
+/* Titulo */
+.Nome {
+    position: relative;
+    left: 20%;
+    margin-top: 50px;
+}
+
+/* Preencher Nome */
+.nome {
+    position: relative;
+    left: 20%;
+    border-style: solid;
+    border-color: rgb(172, 172, 172);
+    border-radius: 10px;
+    height: 40px;
+    width: 400px;
+    font-size: large;
+}
+
+/* Titulo */
+.Sobrenome {
+    position: relative;
+    left: 20%;
+    margin-top: 50px;
+}
+
+/* Preencher Sobrenome */
+.sobrenome {
+    position: relative;
+    left: 20%;
+    border-style: solid;
+    border-color: rgb(172, 172, 172);
+    border-radius: 10px;
+    height: 40px;
+    width: 400px;
+    font-size: large;
+}
+
+/* Titulo */
+.Email {
+    position: relative;
+    left: 20%;
+    margin-top: 50px;
+}
+
+/* Preencher E-mail */
+.email {
+    position: relative;
+    left: 20%;
+    border-style: solid;
+    border-color: rgb(172, 172, 172);
+    border-radius: 10px;
+    height: 40px;
+    width: 400px;
+    font-size: large;
+}
+
+/* Titulo */
+.Cidade {
+    position: relative;
+    left: 20%;
+    margin-top: 50px;
+}
+
+/* Preencher Cidade */
+.cidade {
+    position: relative;
+    left: 20%;
+    border-style: solid;
+    border-color: rgb(172, 172, 172);
+    border-radius: 10px;
+    height: 40px;
+    width: 400px;
+    font-size: large;
+}
+
+/* Continuar */
+.continuar {
+    font-size: large;
+    text-align: center;
+    position: relative;
+    left: 20%;
+    background-color: rgb(0, 132, 255);
+    border-color: rgb(0, 132, 255);
+    color: #ffffff;
+    border-radius: 10px;
+    margin-top: 80px;
+    height: 40px;
+    width: 130px;
+    font-weight: bold;
 }
